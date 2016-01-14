@@ -10,5 +10,6 @@
   <%= @user.email %>
 </p>
 
+<%= link_to 'Posts', @user.microposts%> |
 <%= link_to 'Edit', edit_user_path(@user) %> |
 <%= link_to 'Back', users_path %>
